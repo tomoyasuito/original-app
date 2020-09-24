@@ -1,0 +1,8 @@
+<%= if controller_name != 'sessions' %>
+  <%= link_to "Log in", session_path(resouce_name) , class: 'btn'%>
+<% end %>
+
+<%=if devise_mapping.registerable? && controller_name != 'registrations' %>
+  <%= link_to "Sign up", registration_path(resouce_name) , class: 'btn'%>
+<% end %>
+

@@ -1,0 +1,64 @@
+<mxfile host="a3880b23-d97e-4b2f-9516-a0a32388a5a1" modified="2020-09-24T10:05:00.146Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.47.2 Chrome/78.0.3904.130 Electron/7.3.2 Safari/537.36" etag="7bs7-2Ms6LbJVZpyWnk5" version="13.1.3">
+    <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
+        <mxGraphModel dx="727" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="users" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#60a917;strokeColor=#00CC00;fontColor=#ffffff;strokeWidth=3;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="160" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="name" style="text;strokeColor=none;fillColor=#ffffff;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" parent="2" vertex="1">
+                    <mxGeometry y="26" width="160" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="email" style="text;strokeColor=none;fillColor=#ffffff;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" parent="2" vertex="1">
+                    <mxGeometry y="52" width="160" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="number" style="text;strokeColor=none;fillColor=#ffffff;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" parent="2" vertex="1">
+                    <mxGeometry y="78" width="160" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="password" style="text;strokeColor=none;fillColor=#ffffff;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" parent="2" vertex="1">
+                    <mxGeometry y="104" width="160" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="cars" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;strokeColor=#006EAF;strokeWidth=3;fillColor=#1ba1e2;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="40" width="160" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="vehicle_type" style="text;strokeColor=none;fillColor=#ffffff;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" parent="7" vertex="1">
+                    <mxGeometry y="26" width="160" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="number_of_unit" style="text;strokeColor=none;fillColor=#ffffff;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" parent="7" vertex="1">
+                    <mxGeometry y="52" width="160" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="card" style="text;strokeColor=none;fillColor=#ffffff;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" parent="7" vertex="1">
+                    <mxGeometry y="78" width="160" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="insurance" style="text;strokeColor=none;fillColor=#ffffff;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" parent="7" vertex="1">
+                    <mxGeometry y="104" width="160" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="inspections" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;strokeColor=#A50040;strokeWidth=3;fillColor=#d80073;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="40" width="160" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="vehicle_inspection" style="text;strokeColor=none;fillColor=#ffffff;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" parent="12" vertex="1">
+                    <mxGeometry y="26" width="160" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="year_inspection" style="text;strokeColor=none;fillColor=#ffffff;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" parent="12" vertex="1">
+                    <mxGeometry y="52" width="160" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="relief_inspection" style="text;strokeColor=none;fillColor=#ffffff;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" parent="12" vertex="1">
+                    <mxGeometry y="78" width="160" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="free_inspection" style="text;strokeColor=none;fillColor=#ffffff;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" parent="12" vertex="1">
+                    <mxGeometry y="104" width="160" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="graphs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;strokeColor=#C73500;strokeWidth=3;fillColor=#fa6800;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="280" width="160" height="78" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="car" style="text;strokeColor=none;fillColor=#ffffff;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" parent="20" vertex="1">
+                    <mxGeometry y="26" width="160" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="inspection" style="text;strokeColor=none;fillColor=#ffffff;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontColor=#000000;" parent="20" vertex="1">
+                    <mxGeometry y="52" width="160" height="26" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,26 @@
+<div class="main-header">
+  <div class="lift-header">
+    <div class="header-tiile">
+    販売台数
+    </div>
+  </div>
+  <div class="raight-header">
+    <div class="header-button">
+      <a href="#">戻る</a>
+    </div>
+  </div>
+</div>
+
+<div class="cars">
+</div>
+
+<div class="inspections">
+</div>
+
+<%= form_with model: [@room, @performance], html: {class: "form"}, local: true do |f| %>
+  <div class="form-input">
+    <%=f.text_field :content, class: 'form-message', placeholder: 'type a performance' %>
+  </div>
+  <%= f.submit 'push', class: 'form-submit' %>
+<% end %>
+
